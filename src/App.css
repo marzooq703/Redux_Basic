@@ -1,7 +1,26 @@
+body {
+  background: url("./asserts/background.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: none;
+  opacity: 0.8;
+}
 .App {
   text-align: center;
+  padding: 5%;
 }
 
+.floating {
+  float: left;
+}
+
+.right-button {
+  cursor: pointer;
+  float: right;
+}
+.list-item {
+  display: inline-block;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
